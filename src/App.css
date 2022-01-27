@@ -36,3 +36,103 @@
     transform: rotate(360deg);
   }
 }
+
+img {
+  width:150px;
+}
+
+.genre-list {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: aliceblue;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+}
+
+.genre-item {
+  margin: 20px;
+  width: 150px;
+  border: solid 5px aliceblue;
+  padding: 1px;
+  border-radius: 10px;
+}
+
+.instrument-list {
+  text-align: center;
+  color: crimson;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  margin:20px;
+  background-color: whitesmoke;
+  justify-content: center;
+}
+.instrument-body {
+  display: flex;
+  flex-direction: row;
+  color:crimson;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  background-color: white;
+  
+}
+.instrument-item {
+  text-align: center;
+  margin: 20px;
+  width: 150px;
+  border: solid 5px black;
+  padding: 1px;
+  border-radius: 10px;
+}
+
+.musicians-list {
+  text-align: center;
+  color: white;
+  font-family:fantasy;
+  font-size: 1.5rem;
+  margin:20px;
+  background-color: black;
+  justify-content: center;
+  padding: 1px;
+}
+.musicians-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.musician-item {
+  text-align: center;
+  margin: 20px;
+  width: 150px;
+  border: double 5px whitesmoke;
+  padding: 1px;
+  border-radius: 10px;
+
+}
+
+.albums-list {
+  text-align: center;
+  color: yellowgreen;
+  font-family:cursive;
+  font-size: 1.5rem;
+  margin:20px;
+  background-color: darkslategray;
+  justify-content: center;
+  padding: 1px;
+
+}
+.albums-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.album-item {
+  text-align: center;
+  margin: 20px;
+  width: 150px;
+  border: double 5px slategray;
+  padding: 1px;
+  border-radius: 10px;
+}
