@@ -1,7 +1,7 @@
 export const musicians = [
   {
     name: 'Corey',
-    url_image: 'https://www.metalsucks.net/wp-content/uploads/2017/05/corey-taylor-masks-thru-the-ages-1280x720.jpg',
+    url_image: 'https://www.revolvermag.com/sites/default/files/styles/image_750_x_420/public/media/images/article/corey_taylor_2004_rob_verhosrtredferns.jpg?itok=oMyhf4w_&timestamp=1631050450&c=92d4a68efec566a4d792774e86f94cb7',
     position: 'Singer',
     band: {
       name: 'Slipknot',

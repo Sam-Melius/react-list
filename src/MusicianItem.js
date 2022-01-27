@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function MusicianItem(props) {
-  return <div>
+  return <div className={'musician-item'}>
     <p>Name: {props.musicianName.name}</p>
     <img src={props.musicianName.url_image} />
     <p>Position: {props.musicianName.position}</p>
