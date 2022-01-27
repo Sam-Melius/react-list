@@ -5,6 +5,8 @@ import { genres } from './Genres';
 import GenresList from './GenresList';
 import { instruments } from './instruments';
 import InstrumentsList from './InstrumentsList';
+import { musicians } from './musicians';
+import MusiciansList from './MusiciansList';
 
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
         Render all your lists here. Pass the arrays as props.
       <GenresList genres={genres} />
       <InstrumentsList instruments={instruments} />
+      <MusiciansList musicians={musicians} />
     </div>
   );
 }
