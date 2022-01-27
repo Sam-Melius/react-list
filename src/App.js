@@ -3,6 +3,7 @@ import './App.css';
 // import your arrays here
 import { genres } from './Genres';
 import GenresList from './GenresList';
+import { instruments } from './instruments';
 
 
 function App() {
