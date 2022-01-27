@@ -7,6 +7,8 @@ import { instruments } from './instruments';
 import InstrumentsList from './InstrumentsList';
 import { musicians } from './musicians';
 import MusiciansList from './MusiciansList';
+import { albums } from './albums';
+import AlbumsList from './AlbumsList';
 
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
       <GenresList genres={genres} />
       <InstrumentsList instruments={instruments} />
       <MusiciansList musicians={musicians} />
+      <AlbumsList albums={albums} />
     </div>
   );
 }
